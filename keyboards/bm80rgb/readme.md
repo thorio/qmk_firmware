@@ -1,12 +1,10 @@
-# bm80rgb
+# BM80 RGB
 
-![bm80rgb](imgur.com image replace me!)
-
-*A short description of the keyboard/project*
+An 80% RGB Keyboard from KP Republic.
 
 * Keyboard Maintainer: [thorio](https://github.com/yourusername)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: BM80 RGB
+* Hardware Availability: [KP Republic](https://kprepublic.com/products/bm80rgb-bm80-rgb-80-hot-swappable-custom-mechanical-keyboard-pcb-programmed-qmk-via-firmware-full-rgb-switch-underglow-type-c)
 
 Make example for this keyboard (after setting up your build environment):
 

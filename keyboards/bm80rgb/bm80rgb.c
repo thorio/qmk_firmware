@@ -16,7 +16,7 @@
 
 #include "bm80rgb.h"
 
-// #ifdef RGB_MATRIX_ENABLE
+#ifdef RGB_MATRIX_ENABLE
 led_config_t g_led_config = { {
     // Key Matrix to LED Index
     { 0,      NO_LED, 1,      2,      3,      4,      NO_LED, 5,      6,      7,      8,      9,      10,     12,     13,     14,     15 },
@@ -35,11 +35,11 @@ led_config_t g_led_config = { {
     {  2, 64}, { 18, 64}, { 34, 64},                       { 83, 64},                                  {131, 64}, {148, 64}, {164, 64}, {180, 64},            {198, 64}, {211, 64}, {224, 64}
 }, {
     // LED Index to Flag
-    1,    4, 4, 4, 4,    4, 4, 4, 4, 4, 4, 4, 1, 1, 1, // Esc, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F12, Print Screen, Scroll Lock, Pause
-    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, // Grave, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, -, =, Backspace, Delete, Home, Page Up
-    1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 1, 1, // Tab, Q, W, E, R, T, Y, U, I, O, P, [, ], Backslash, Delete, End, Page Down
-    1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1,          // Capslock, A, S, D, F, G, H, J, K, L, ;, ', Enter
+    1,    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, // Esc, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, Print Screen, Scroll Lock, Pause
+    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1, 4, 4, 4, // Grave, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, -, =, Backspace, Delete, Home, Page Up
+    1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, // Tab, Q, W, E, R, T, Y, U, I, O, P, [, ], Backslash, Delete, End, Page Down
+    1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 1,             // Capslock, A, S, D, F, G, H, J, K, L, ;, ', Enter
     1, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,    1,       4,    // LShift, Z, X, C, V, B, N, M, ,, ., /, RShift, Up,
     1, 1, 1,       4,          1, 1, 1, 1, 4,    4, 4  // Ctrl, GUI, Alt, Space, RAlt, RGUI, FN, Ctrl, Left, Down, Right
 } };
-// #endif
+#endif

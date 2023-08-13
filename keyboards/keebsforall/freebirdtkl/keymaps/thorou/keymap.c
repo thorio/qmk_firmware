@@ -53,8 +53,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [2] = LAYOUT_tkl_f13_ansi_split_rshift(
         _,       _,       _,       _,       _,       _,       _,       _,       _,       _,       _,       _,       _,       _,          _,       _,       _,
-        _,       KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS, _,       _,       _,       _,       _,       _,       _,       _,       _,          _,       _,       _,
-        _,       KC_P7,   KC_P8,   KC_P9,   KC_PPLS, KC_PENT, _,       _,       _,       _,       _,       _,       _,       _,          _,       _,       _,
+        _,       KC_NUM,  KC_PSLS, KC_PAST, KC_PMNS, _,       _,       _,       _,       _,       _,       _,       _,       _,          _,       _,       KC_BRIU,
+        _,       KC_P7,   KC_P8,   KC_P9,   KC_PPLS, KC_PENT, _,       _,       _,       _,       _,       _,       _,       _,          _,       _,       KC_BRID,
         _,       KC_P4,   KC_P5,   KC_P6,   KC_PCMM, KC_PDOT, _,       _,       _,       _,       _,       _,                _,
         _______,          KC_P1,   KC_P2,   KC_P3,   KC_PEQL, KC_P0,   _,       _,       _,       _,       _,       QK_LOCK, _______,             _,
         _______, _______, _______,                            _,                                  _______, _______, _______, _______,    _,       _,       _
